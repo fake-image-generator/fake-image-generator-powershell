@@ -1,8 +1,29 @@
-﻿<#
+﻿<#PSScriptInfo
+ 
+.VERSION 1.0.0
+ 
+.GUID 152ce937-5cc4-4ffa-9a1a-d3f38157bc53
+ 
+.AUTHOR fagnercarvalho
+
+.TAGS image image-manipulation fake generator big
+
+.LICENSEURI 
+    https://opensource.org/licenses/MIT
+
+.PROJECTURI 
+    https://github.com/fake-image-generator/fake-image-generator-powershell
+
+.ICONURI 
+    https://raw.githubusercontent.com/fake-image-generator/fake-image-generator-powershell/master/fake-image-generator.png
+
+#>
+
+<#
 .SYNOPSIS
     Generate a fake JPG or PNG image in any size between 1 KB and 2 GB.
 .DESCRIPTION
-    .
+    Generate a fake JPG or PNG image in any size between 1 KB and 2 GB.
 .EXAMPLE
     .\fake-image-generator.ps1 -SizeInBytes 8888 -OutputPath "C:/" -Extension ".png"
 #>
